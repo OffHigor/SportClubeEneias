@@ -1,11 +1,16 @@
 .navbar-expand-sm{
     background-color: rgb(64, 0, 212);
-}
-.Logo{
-    width: 5%;
-    height: 80px;
+    justify-content: unset;
 }
 .ImagemLogo{
     width: 100%;
     height: 100%;
+}
+.tt{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+.Navbar{
+    justify-items: end;
 }
