@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.Tudo{
+    background-color: #D9D9D9;
+    
+}
+.texto{
+    color: rgb(255, 255, 255) !important;
+    font-size: large !important;
+    font-weight: 500 !important;
+}
+@media (max-width: 580px) {
+    h1 {
+        font-family: "Modak", system-ui;
+        font-weight:  100;
+        font-style: normal;
+        font-size: 42px !important;
+    }
+    .BlocoAp.container-fluid{
+        padding: 40px 40px;
+    }
+    .BlocoProjetos.container-fluid{
+        padding: 40px 40px;
+    }
+    .ConteudoProjetos{
+        margin-top: 50px !important;
+    }
+    .BlocoTecnologias.container-fluid{
+        padding: 40px 40px;
+    }
+    .BlocoSobre.container-fluid{
+        padding: 40px 40px;
+    }
+}
+@media (min-width: 581px)
+{
+    h1{
+    font-family: "Modak", system-ui;
+    font-weight:  100;
+    font-style: normal;
+    font-size: 62px !important;
+    }
+    .BlocoAp.container-fluid{
+        padding: 40px 120px;
+    }
+    .BlocoProjetos.container-fluid{
+        padding: 40px 120px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .Projeto.row{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .ImagemProjeto{
+        width: 90%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .ConteudoProjetos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 31% !important;
+        background-color: #F2F2F2 ;
+        border-radius: 20px;
+        margin: 50px 8px;
+        box-shadow: 15px 15px 20px #A6A6A6;
+        border: 2px solid #949393;
+    } 
+    .BlocoTecnologias.container-fluid{
+        padding: 40px 120px;
+    }
+    .BlocoSobre.container-fluid{
+        padding: 40px 120px;
+    }
+}
+
+
+h2{
+    font-family: "Modak", system-ui;
+    font-weight:  100;
+    font-style: normal;
+    font-size: 58px !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px !important;
+    color: #049DD9 !important;
+}
+h3{
+    font-family: "Modak", system-ui;
+    font-weight:  100;
+    font-style: normal;
+    font-size: 38px !important;
+}
+.centralP{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+p{
+    font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.navbar.navbar-expand-sm{
+    background-color: #049DD9  ;
+}
+.dropdown-menu.show{
+    background-color: #049DD9;
+}
+.Logo{
+    width: 100px;
+    height: 80px;
+    margin-right: 50px;
+}
+.ImagemLogo{
+    width: 100%;
+    height: 100%;
+}
+.LogoNav.navbar-brand{
+    width: 100%;
+}
+.central{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#049DD9;
+    margin: 20px 0px ;
+}
+.central2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#049DD9;
+    margin: 20px 0px ;
+}
+
+
+.BlocoAp.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.TextoApresentacao{
+    text-align: center;
+
+}
+.Apresentacaoimg{
+    width: 50%;
+}
+.ImagemApresentacao{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+
+.Projeto.row{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.ImagemProjeto{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+.ConteudoProjetos{
+    background-color: #F2F2F2 ;
+    border-radius: 20px;
+
+    box-shadow: 15px 15px 20px #A6A6A6;
+    border: 2px solid #949393;
+}
+
+.ProjetosBotao{
+    margin: 20px;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    background-color: #049DD9;
+    border-radius: 10px;
+    color: black;
+    border: solid #D9D9D9;
+}
+a{
+    font-weight: 600;
+    text-decoration: none !important;
+    color: black !important;
+}
+.ImgPJ{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.TxtPj{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.CaixaTec.row{
+    width: 100%;
+    margin: 0px;
+}
+.Tecnologias{
+    display: flex;
+    justify-content: center;
+}
+.ImagemTecnologia{
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+
+
+
+
+.SobreTxt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+.TituloSobre{
+    text-align: start;
+    color: #049DD9;
+}
+.ImgSobre{
+    height: 400px;
+    padding: 0px;
+}
+.ImagemSobre{
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 30px #5CC8F2;
+    border: 2px solid #049DD9;
+}
+.ContatoHigor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.IconeRedes{
+    margin: 20px;
+}
+
+.BlocoContato.container-fluid{
+    padding: 6%;
+}
+.IconesContato{
+    width: 25%;
+    padding: 4%; 
+}
+.Redes{
+    text-align: center;
+}
+
+
+
+.BlocoRodaPe.container-fluid{
+    background-color: #049DD9;
+    padding: 0px;
+}
+.ConteudoRodaPe.row{
+    margin: 0px;
+}
+.ImgRodaPe{
+    width: 100%;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.TextoRodaPe{
+    color: white;
+    text-align: center;
+    margin: 0 0px 20px;
+}
+
+.IconesRodaPe{
+    display: flex;
+    flex-direction: row;
+   text-align: center;
+    padding-top: 1%;
+}
+.Icones{
+    padding: 2%;
+}
