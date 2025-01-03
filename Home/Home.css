@@ -1,32 +1,9 @@
-.carrosel{
-    width: 100%;
-    height: 780px;
-}
-.tt{
-    width: 100%;
+.central{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 }
-.ttt{
-    width: 60%;
-}
-
-.seta{
-    height: 550px;
-    width: 10%;
-    
-}
-.seta2{
-    color: rgb(255,106,0);
-    font-size: 55px;
-    font-weight: 800;
-}
-.central{
-    text-align: center;
-    margin-top: 100px;
-    font-family: "OpenSans", sans-serif;
-    font-size: 68px;
-    font-weight: 800;
-    color: rgb(255,106,0) ;
+.noticias{
+    background-color: black;
+    height: 400px;
+    margin: 30px 40px 30px 0px;
 }
