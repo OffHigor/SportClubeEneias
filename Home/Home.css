@@ -8,7 +8,44 @@
     background-color: black;
     height: 500px;
 }
+.centralLoja{
+    background-color: rgb(255,106,0);
+    margin-top: 100px;
+}
+.ImagemsLoja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ImagensL{
+    padding: 30px 40px;
+    height: 80%;
+}
+.BtnLoja{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.BotaoLoja{
+    width: 120px;
+    height: 60px;
+}
 .noticias{
     height: 512px;
     margin: 30px 40px 30px 0px;
+}
+.ImagemSocio{
+    display: flex;
+    align-items: center;
+}
+.TextoSocio{
+    display: flex;
+    flex-direction: column;
+}
+.BotaoSocio{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
 }
