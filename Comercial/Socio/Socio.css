@@ -1,0 +1,53 @@
+.central{
+    display: flex;
+    justify-content: center;
+}
+.ContadorSocios{
+    background-color: rgb(255,106,0);
+    height: 60px;
+    margin-top: 30px;
+    padding: 0px;
+}
+.SocioImg{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 50px;
+}
+.ImagemS{
+    width: 70%;
+    height: 600px;
+}
+.cardssocios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    margin: 125px 50px;
+    border-radius: 160px;
+}
+.cardssocios2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(255,106,0);
+    margin: 125px 50px;
+    border-radius: 160px;
+}
+.logoPlanos{
+    width: 30%;
+    transform: translateY(-100px);
+}
+.cartao{
+    width: 75%;
+}
+.txtsocio{
+    width: 80%;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+.btns{
+    margin: auto;
+}
