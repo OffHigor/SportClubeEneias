@@ -1,0 +1,9 @@
+.central{
+    display: flex;
+    justify-content: center;
+}
+.botoeatalho{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}

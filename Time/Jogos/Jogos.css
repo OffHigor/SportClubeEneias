@@ -1,0 +1,27 @@
+.central{
+    display: flex;
+    justify-content: center;
+}
+.Imagem{
+    width: 100%;
+    height: 900px;
+}
+.temporizador{
+    background-color: rgb(255,106,0);
+    width: 30%;
+    height: 120px;
+    margin: auto;
+}
+.cardjogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.conteudojogo{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 20px;
+}
