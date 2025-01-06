@@ -7,3 +7,16 @@
     justify-content: center;
     width: 60%;
 }
+button{
+    margin: 30px;
+}
+.jogadores{
+    width: 100%;
+    height: 100%;
+}
+.cardjogador{
+    width: 15%;
+    height: 312px;
+    margin: 30px 40px;
+    text-align: center;
+}
