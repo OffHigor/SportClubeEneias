@@ -1,0 +1,32 @@
+.central{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 30px;
+}
+.TxtSobre{
+    display: flex;
+    flex-direction: column;
+   
+}
+.textoS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.Imagem{
+    width: 60%;
+}
+.IconesLogo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.Icones{
+    width: 100%;
+    height: 50px;
+}
+a{
+    display: flex;
+}
