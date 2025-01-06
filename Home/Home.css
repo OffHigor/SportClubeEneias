@@ -1,12 +1,45 @@
 .central{
     display: flex;
     justify-content: center;
+    gap: 50px;
+
 }
+.central1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+.central2{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: aliceblue;
+}
+.central3{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: aliceblue;
+}
+.ImagemLogoSocio{
+    margin: 20px;
+
+}
+.imagemS{
+    padding: 30px;
+    border-radius: 70px;
+}
+
 .centralS{
     display: flex;
     justify-content: center;
     background-color: black;
-    height: 500px;
+    
 }
 .centralLoja{
     background-color: rgb(255,106,0);
@@ -45,6 +78,7 @@
 }
 .BotaoSocio{
     margin: auto;
+    background-color: rgb(255, 103, 2);
     width: 150px;
     height: 50px;
     border-radius: 10px;
