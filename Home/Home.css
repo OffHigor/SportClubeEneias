@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-
 }
 .central1{
     display: flex;
@@ -28,13 +27,11 @@
 }
 .ImagemLogoSocio{
     margin: 20px;
-
 }
 .imagemS{
     padding: 30px;
     border-radius: 70px;
 }
-
 .centralS{
     display: flex;
     justify-content: center;
