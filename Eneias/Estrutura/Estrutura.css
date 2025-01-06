@@ -1,0 +1,23 @@
+.central{
+    display: flex;
+    justify-content: center;
+}
+
+.ImagensToca{
+    display: flex;
+    justify-content: center;
+}
+.Imagens{
+    margin: 50px;
+    height: 450px;
+}
+.centraltxt{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: auto;
+    padding: 20px 0px;
+    width: 60%;
+    
+}

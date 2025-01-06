@@ -1,0 +1,17 @@
+.central{
+    display: flex;
+    justify-content: center;
+}
+.centralP{
+    display: flex;
+    justify-content: center;
+}
+.redirecionador{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.Logos{
+    width: 20%;
+    margin: auto;
+}
