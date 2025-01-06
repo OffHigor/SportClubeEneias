@@ -1,0 +1,36 @@
+.central{
+    display: flex;
+    justify-content: center;
+}
+.textohistoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+}
+.blocohino{
+    display: flex;
+    padding: 0px 0px;
+    height: 1080px;
+}
+.logoen{
+    width: 100%;
+    height: 75%;
+}
+.mascote{
+    width: 100%;
+    height: 100%;
+}
+.tt{
+    display: flex;
+    align-items: center;
+    width: 21%;
+}
