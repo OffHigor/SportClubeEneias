@@ -1,0 +1,85 @@
+.central{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.central1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+.central2{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: aliceblue;
+}
+.central3{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: aliceblue;
+}
+.ImagemLogoSocio{
+    margin: 20px;
+
+}
+.imagemS{
+    padding: 30px;
+    border-radius: 70px;
+}
+
+.centralS{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+.centralLoja{
+    background-color: rgb(255,106,0);
+    margin-top: 100px;
+}
+.ImagemsLoja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ImagensL{
+    padding: 30px 40px;
+    height: 80%;
+}
+.BtnLoja{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.BotaoLoja{
+    width: 120px;
+    height: 60px;
+}
+.noticias{
+    height: 512px;
+    margin: 30px 40px 30px 0px;
+}
+.ImagemSocio{
+    display: flex;
+    align-items: center;
+}
+.TextoSocio{
+    display: flex;
+    flex-direction: column;
+}
+.BotaoSocio{
+    margin: auto;
+    background-color: rgb(255, 103, 2);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
