@@ -33,7 +33,7 @@
     margin-top: 30px;
 }
 .ImagemModelo{
-    width: 100%;
+    width: 50%;
     height: 800px;
     display: flex;
     justify-content: center;
@@ -118,6 +118,9 @@ label{
     }
     .camisas{
         width: 100%;
+    }
+    .ImagemModelo{
+        height: 400px;
     }
 }
 .txtbtn{
