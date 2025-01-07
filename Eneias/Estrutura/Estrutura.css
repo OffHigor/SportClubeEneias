@@ -4,6 +4,7 @@
 }
 
 .ImagensToca{
+    padding: 0px;
     display: flex;
     justify-content: center;
 }
@@ -15,12 +16,7 @@
     display: flex;
     flex-direction: column;
 }
-p{
-    margin: auto;
-    padding: 20px 0px;
-    width: 60%;
-    
-}
+
 #T1{
     margin-top: 40px;
     margin-bottom: 40px;
@@ -28,9 +24,36 @@ p{
     font-weight: bolder;
 }
 .St{
+    width: 75%;
     font-size: 40px;
     font-weight: bold;
+    text-align: start;
+    margin: auto;
+    margin: 20px 167.96px;
 }
 .Tn{
+    width: 75%;
     font-size: 20px;
+    text-align: start;
+    margin: 20px 167.96px;
+}
+@media (max-width: 580px){
+    #T1{
+        font-size: 32px ;
+    }
+    .ImagensToca{
+        flex-direction: column;
+    }
+    .Imagens{
+        width: 75%;
+        height: 275px;
+        margin: auto;
+        margin: 50px 53.750px;
+    }
+    .St{
+        margin: 20px 53.75px
+    }
+    .Tn{
+        margin: 20px 53.75px;
+    }
 }

@@ -7,7 +7,6 @@
     flex-direction: column;
     align-items: center;
     width: 60%;
-    height: 100%;
 }
 p{
     display: flex;
@@ -15,12 +14,16 @@ p{
     text-align: center;
     width: 40%;
     height: 100%;
-    font-size: 20px;
+    margin: 0px;
+}
+.txthistoria{
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
 }
 .blocohino{
     display: flex;
     padding: 0px 0px;
-    height: 1080px;
 }
 .logoen{
     width: 100%;
@@ -43,4 +46,19 @@ h1{
 }
 h3{
     font-size: 40px;
+}
+@media(max-width: 580px){
+    h1{
+        font-size: 42px;
+    }
+    .mascote{
+        height: 500px;
+    }
+    .logoen{
+        height: 500px;
+    }
+    .textohistoria{
+        height: 100%;
+        margin: 0px;
+    }
 }
