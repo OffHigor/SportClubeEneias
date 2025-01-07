@@ -24,16 +24,16 @@
     margin: 0px 20px 0px 0px;
 }
 .camisas{
-    width: 100%;
+    width: 80%;
 }
 .blocoModeloCompra{
     padding: 0px;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 .ImagemModelo{
     width: 30%;
-    height: 600px;
 }
 .imagemcamisa{
     width: 100%;
@@ -42,4 +42,98 @@
 .ComplementosModelo{
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+}
+.Pro{
+    font-size: 40px;
+    font-weight: bold;
+}
+.Pre{
+    font-size: 40px;
+}
+.Tamanho{
+    margin-top: 50px;
+}
+.Tams{
+    display: flex;
+    
+}
+.Tam{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(255,106,0);
+    color: white;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 30px;
+}
+
+
+
+.BS{
+    background:rgb(255,106,0);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 5px;
+    margin-bottom: 70px;
+  }
+  .BS:hover{
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+  }
+  .BS:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(255,106,0);
+    transition:400ms ease all;
+  }
+  .BS:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .BS:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  #B1{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  #B2{
+    font-size: 70px;
+    height: 100px;
+  }
+
+
+#OP{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.NO{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.PO{
+    font-size: 30px;
 }
