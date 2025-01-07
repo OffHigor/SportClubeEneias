@@ -1,3 +1,11 @@
+h1{
+    margin: 40px;
+    text-align: left;
+    font-size: 40px;
+}
+p{
+    margin: 0px;
+}
 .central{
     display: flex;
     justify-content: center;
@@ -32,5 +40,5 @@
     margin: 0px 20px 0px 0px;
 }
 .camisas{
-    width: 100%;
+    width: 100%
 }
