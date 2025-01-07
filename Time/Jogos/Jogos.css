@@ -96,7 +96,7 @@ div[class*=box] {
     cursor: pointer;
   }
   .btn-one {
-    color: #FFF;
+    color: #000000;
     transition: all 0.3s;
     position: relative;
   }

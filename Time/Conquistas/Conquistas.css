@@ -39,7 +39,7 @@ h1{
 .txt{
     width: 60%;
     text-align: center;
-    margin: 40px 263.945px;
+    margin: auto;
 }
 @media(max-width: 580px){
     .borda{
