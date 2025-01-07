@@ -1,18 +1,23 @@
 .central{
     display: flex;
     justify-content: center;
+    padding: 0px;
+}
+p{
+    margin: 0px;
 }
 .botoeatalho{
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 80%;
 }
 button{
-    margin: 30px;
+    margin: 10px 15px;
+    padding: 0px;
 }
 .jogadores{
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 .cardjogador{
     width: 15%;
@@ -24,11 +29,7 @@ h1{
     margin: 50px;
     font-weight: 900;
 }
-p{
-    font-size: 30px;
-    margin: 7px;
 
-}
 .botao{
     border-radius: 10px;
     width: 190px;
@@ -36,4 +37,35 @@ p{
     border: 0px;
     color: black;
     font-weight: 900;
+}
+@media(max-width: 580px){
+    h1{
+        margin: auto;
+        font-size: 35px;
+        text-align: center;
+    }
+    .botao{
+        width: 100%;
+        margin: 0px;
+    }
+    a{
+        width: 20%;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .link{
+        padding: 10px;
+    }
+    .tt{
+        width: 100%;
+    }
+    .cardjogador{
+        width: 25%;
+        height: 140px;
+        margin: 10px 15px;
+    }
+    .jogadores{
+        height: 66%;
+    }
 }

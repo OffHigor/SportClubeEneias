@@ -1,46 +1,51 @@
-.Título{
-    margin: 100px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 70px;
+.central{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
-.Competição{
-    border: 4px solid rgb(255,106,0);
-    align-items: center;
+.centralT{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 30px;
+}
+.Direcionador{
+    display: flex;
+    justify-content: center;
+}
+.Redirecionador{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 70px;
+    width: 50%;
 }
-.Comp{
-    display: flex;
-    align-items: center;
+h1{
     margin: auto;
+    text-align: center;
 }
-.Datas{
+.borda{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 70%;
+    border: 2px solid rgb(255,106,0);
 }
-.ImagemConquistas{
+.titulos{
     width: 30%;
-    margin-left: 300px;
 }
-.SubTítulo{
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 60px;
-    font-weight: bolder;
+.txtagradecimento{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
 }
-.data{
-    font-size: 100px;
-    margin-left: 200px;
-}
-.Agradecimento{
+.txt{
+    width: 60%;
     text-align: center;
-    font-size: 30px;
-    width: 40%;
-    margin: auto;
+    margin: 40px 263.945px;
+}
+@media(max-width: 580px){
+    .borda{
+        width: 85%;
+    }
+    .txt{
+        margin: 30px 86px;
+    }
 }
