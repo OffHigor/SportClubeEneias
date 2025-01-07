@@ -7,6 +7,8 @@
     height: 60px;
     margin-top: 30px;
     padding: 0px;
+    width: 20%;
+    border-radius: 5px;
 }
 .SocioImg{
     display: flex;
@@ -47,7 +49,99 @@
     width: 80%;
     text-align: center;
     margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 .btns{
     margin: auto;
 }
+#Cont{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#S{
+    color:rgb(255,106,0);
+}
+#G{
+    color: black;
+}
+
+.BS{
+    background:rgb(255,106,0);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin-top: 219px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+  }
+  .BS:hover{
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+  }
+  .BS:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(255,106,0);
+    transition:400ms ease all;
+  }
+  .BS:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .BS:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .BG{
+    background:rgb(0, 0, 0);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  .BG:hover{
+    background:rgb(255,106,0);
+    color:rgb(0, 0, 0);
+  }
+  .BG:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(0, 0, 0);
+    transition:400ms ease all;
+  }
+  .BG:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .BG:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
