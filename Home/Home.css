@@ -1,6 +1,46 @@
+@media (max-width: 580px) {
+    .centralTitulo{
+        font-size: 42px !important;
+        margin: 50px 80px !important;
+    }
+    .imagemcarrosel{
+        width: 320px !important;
+        height: 200px !important;
+    }
+    .centralN{
+        flex-direction: column;
+        gap: 0px !important;
+    }
+    .noticias{
+        display: flex;
+        justify-content: center;
+        height: 100% !important;
+    }
+    .centralS{
+        flex-direction: column !important;
+    }
+    .imagemS{
+        width: 85% !important;
+        height: 250px !important;
+        margin-top: 80px;
+    }
+    .BotaoSocio{
+        margin-top: 50px !important;
+    }
+    .ImagemsLoja{
+        flex-direction: column !important;
+    }
+}
 .central{
     display: flex;
     justify-content: center;
+    
+    gap: 70px;
+}
+.centralN{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
     gap: 70px;
 }
 .centralTitulo{
@@ -15,6 +55,7 @@
     justify-content: center;
     font-size: 40px;
     color: aliceblue;
+    margin: 0px 0px;
 }
 .central2{
     margin: 0px;
@@ -24,21 +65,14 @@
     font-weight: 550;
     color: aliceblue;
 }
-.central3{
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    font-weight: 550;
-    color: aliceblue;
-}
+
 .ImagemLogoSocio{
     margin: 20px;
 }
 .imagemS{
-    padding: 30px;
-    border-radius: 70px;
-    box-shadow: 5px 5px 10px;
+    width: 100%;
+    height: 410px;
+    border-radius: 20px;
 }
 .ImagenNoticia{
     border-radius: 30px;
@@ -54,11 +88,13 @@
     display: flex;
     justify-content: center;
     background-color: black;
-    
+    padding: 0px;
+    height: 850px;
 }
 .centralLoja{
     background-color: rgb(255,106,0);
     margin-top: 100px;
+    padding: 0px;
 }
 .ImagemsLoja{
     display: flex;
@@ -69,7 +105,7 @@
 .ImagensL{
     margin: 30px 40px;
     height: 80%;
-    border-radius: 100px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px;
 }
 .BtnLoja{
@@ -90,6 +126,7 @@
 }
 .ImagemSocio{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .TextoSocio{

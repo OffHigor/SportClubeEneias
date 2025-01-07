@@ -120,3 +120,41 @@ body{
     padding-top: 50px;
     color: white;
 }
+@media (max-width: 580px){
+    .RodaPe{
+        flex-direction: row ;
+    }
+    .PatrocinadoresRodaPe{
+        flex-direction: column;
+        margin: 0px;
+        height: 100%;
+    }
+    .MapaRodaPe{
+        flex-direction: column;
+        padding: 0px 0px;
+        justify-content: space-around;
+    }
+    .ImgRodaPe{
+        flex-direction: column;
+        margin: 0px 0px 0px 20px;
+    }
+    .LogosRodaPe{
+        margin: 30px 0px;
+    }
+    .LogosRodaPe2{
+        margin: 30px 0px;
+    }
+    .LogosRodaPe3{
+        margin: 30px 0px;
+    }
+    .BlocoLogo{
+        display: none;
+    }
+    .TituloMapaRodaPe{
+        align-items: start;
+        margin: 20px 0px 0px 40px;
+    }
+}
+p{
+    margin: 5px 0px;
+}
