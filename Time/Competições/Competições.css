@@ -1,0 +1,44 @@
+.competição-principal{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(250, 135, 3);
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h1{
+    text-align: center;
+    margin: 70px;
+    margin-bottom: 0px;
+   
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+p{
+    margin: 20px;
+    font-size: 20px;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.competição2{
+    display: flex;
+    flex-direction: column;
+}
+.imagemEstadio{
+    height: 300px;
+
+}
+.timerival{
+    height: 100px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
