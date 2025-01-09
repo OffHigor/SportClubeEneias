@@ -28,10 +28,7 @@
 .Icones{
     width: 100%;
     height: 50px;
-}
-.Imagem:hover{
-    transform: scale(1.4);
-}
+}   
 .Icones:hover{
     transform: scale(1.4) rotate(360deg);
     transition: 1200ms ease-in-out;
