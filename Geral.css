@@ -11,7 +11,10 @@ body{
     width: 100%;
     margin-top: 10px;
 }
-
+h5{
+    font-weight: 600;
+    font-size: 22px;
+}
 .socio{
     width: 100%;
     display: flex;
@@ -47,9 +50,23 @@ body{
 }
 .texto{
     color: white !important; 
-    font-size: large;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     margin: 0px 10px;
+    font-family: "OpenSans", sans-serif ;
+}
+.texto2{
+    color: black !important;
+    font-family: "OpenSans", sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+}
+.dropdown-menu{
+    width: 300px;
+}
+.tt{
+    font-weight: 600;
 }
 .retangulolaranja{
     width: 100%;
@@ -170,6 +187,9 @@ body{
     .socio{
         justify-content: center !important;
         margin: 20px 20px;
+    }
+    .dropdown-menu{
+        width: 100%;
     }
 }
 .txtrodape{
