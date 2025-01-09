@@ -18,7 +18,7 @@
 }
 .txthistoria{
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
     height: 100%;
 }
 .blocohino{
@@ -57,9 +57,13 @@ h3{
     .logoen{
         height: 500px;
     }
-    .textohistoria{
+    .txthistoria{
         height: 100%;
         margin: 0px;
-        font-size: 50% !important;
+        font-size: 15px !important;
+    }
+    .centralH{
+        font-size: 20px !important;
+        text-align: center;
     }
 }
