@@ -27,9 +27,7 @@ h5:hover{
     font-weight: 500;
     color: rgb(255,106,0);
 }
-.LogosRodaPe:hover, .LogosRodaPe2:hover, .LogosRodaPe3:hover{
-    transform: scale(2);
-}
+
 .mascote, .logoen{
     transform: translate(0px);
     animation: move 10s ease-in-out infinite;
