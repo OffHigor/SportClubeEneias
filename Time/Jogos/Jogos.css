@@ -48,12 +48,12 @@
   }
   .Imagem{
     padding: 0px;
-    height: 350px;
+    height: 100%;
   }
   .temporizador{
     width: 60%;
     height: 90px;
-    font-size: 36px;
+    font-size: 30px;
   }
   .data{
     font-size: 22px !important;
@@ -64,87 +64,71 @@
     height: 60px;
   }
   .Time{
-    width: 20% !important;
+    width: 50px !important;
     margin: 0px 0px !important;
-    height: 80px;
+    height: 50px;
   }
   .x{
-    font-size: 20px !important;
+    font-size: 30px !important;
+    margin-top: 15px;
   }
-  .btn{
-    display: none;
+  .btgc{
+    display: none !important;
+  }
+  .btg{
+    font-size: 30px !important;
   }
   .Liga2{
     width: 18%;
     height: 100px;
   }
+  #gt{
+    margin-right: 10px !important;
+  }
 }
 
-div[class*=box] {
-    height: 33.33%;
-    width: 100%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btg {
+  font-size:45px;
+  border-radius:40px;
+  padding-left:24px;
+  padding-right:24px;
+  padding-top:8px;
+  padding-bottom:8px;
+  color:#ffffff;
+  background-color:rgb(255,106,0);
+  outline:none;
+  border:none;
+  cursor:pointer;
+  display:inline-block;
+  text-decoration: none;
+  transition: .4s;
   }
-  
-  .btn {
-    line-height: 50px;
-    height: 50px;
-    text-align: center;
-    width: 250px;
-    cursor: pointer;
-  }
-  .btn-one {
-    color: #000000;
-    transition: all 0.3s;
-    position: relative;
-  }
-  .btn-one span {
-    transition: all 0.3s;
-  }
-  .btn-one::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgb(255,106,0);
-    border-bottom-color: rgb(255,106,0);
-    transform: scale(0.1, 1);
-  }
-  .btn-one:hover span {
-    letter-spacing: 2px;
-  }
-  .btn-one:hover::before {
-    opacity: 1; 
-    transform: scale(1, 1); 
-  }
-  .btn-one::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255,255,255,0.1);
-  }
-  .btn-one:hover::after {
-    opacity: 0; 
-    transform: scale(0.1, 1);
+  .btg:hover {
+  color:rgb(255,106,0);
+  background-color:#000000;
   }
 
-
+  .btgc {
+    margin-right: 30px;
+    font-size:25px;
+    border-radius:40px;
+    padding-left:24px;
+    padding-right:24px;
+    padding-top:8px;
+    padding-bottom:8px;
+    color:#ffffff;
+    background-color:rgb(255,106,0);
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration: none;
+    transition: .4s;
+    }
+    .btgc:hover {
+    color:rgb(255,106,0);
+    background-color:#000000;
+    }
 
 .data{
     font-size: 50px;
@@ -156,7 +140,7 @@ div[class*=box] {
     width:140px ;
 }
 .Time{
-    width:140px ;
+    width:200px ;
     margin-top: 30px;
     margin-bottom: 30px;
 }
