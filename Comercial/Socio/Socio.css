@@ -2,16 +2,10 @@
     display: flex;
     justify-content: center;
 }
-.ContadorSocios{
-    background-color: rgb(255,106,0);
-    height: 60px;
-    margin-top: 30px;
-    padding: 0px;
-    width: 300px;
-}
+
 .centralS{
   display: flex;
-     
+  justify-content: center;
 }
 @media(max-width: 580px){
 
@@ -30,7 +24,35 @@
     .logoPlanos{
       transform: translateY(-55px) !important;
     }
-}
+    .ContadorSocios{
+      display: none;
+    }
+    .num{
+      display: none;  
+    }
+    .numb{  
+      display: none;
+  
+    }
+    .N1{
+      display: none;
+    }
+    
+    .esc{
+      display: none;
+    }
+    .ImagemS{
+      width: 100% !important;
+      height: 100% !important;
+      margin-top: 0;
+    }
+    .BS{
+      margin-top: 10px !important;
+    }
+    }
+
+  
+  
 .SocioImg{
     display: flex;
     justify-content: center;
@@ -39,7 +61,7 @@
 }
 .ImagemS{
     width: 70%;
-    height: 600px;
+    height: 700px;
 }
 .cardssocios{
     display: flex;
@@ -70,6 +92,7 @@
     width: 80%;
     text-align: center;
     margin: 10px 0px 0px 0px;
+    font-size: 20px;
 }
 .btns{
     margin: auto;
@@ -159,4 +182,42 @@
   }
   #S{
     color: rgb(255,106,0);
+  }
+  .planos{
+    align-items: center;
+    margin: auto;
+  }
+  .ContadorSocios{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+  .num{
+    display: flex;
+    flex-direction: row;
+  }
+  .numb{
+    background-color: rgb(255,106,0);
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+  }
+  .N1{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+  }
+  .esc{
+    background-color: black;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #G{
+    color: black;
   }

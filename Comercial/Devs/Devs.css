@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     height: 20%;
+    font-size: 30px;
 }
 .Imagem{
     width: 60%;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+    width: 100%;
 }
 .Icones{
     width: 100%;
@@ -29,4 +31,31 @@
 }
 a{
     display: flex;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width: 580px){
+    h1{
+        font-size: 20px;
+    }
+    #r{
+        flex-direction: column;
+        margin: auto;
+    }
+    #im{
+        align-items: center !important;
+    }
+    .textoS{
+        font-size: 20px;
+    }
+    #re{
+        width: 500px;
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }

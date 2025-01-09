@@ -6,6 +6,10 @@
 p{
     margin: 0px;
 }
+.n{
+    font-size: 30px;
+    font-weight: bold;
+}
 .botoeatalho{
     display: flex;
     justify-content: center;
@@ -17,7 +21,7 @@ button{
 }
 .jogadores{
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 .cardjogador{
     width: 15%;
@@ -45,11 +49,14 @@ h1{
         text-align: center;
     }
     .botao{
-        width: 100%;
+        width: 140%;
         margin: 0px;
     }
     a{
         width: 20%;
+    }
+    .n{
+        font-size: 10px;
     }
     .name{
         font-size: 10px;
@@ -64,8 +71,7 @@ h1{
         width: 25%;
         height: 140px;
         margin: 10px 15px;
-    }
-    .jogadores{
-        height: 66%;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
 }

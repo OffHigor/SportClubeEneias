@@ -30,10 +30,6 @@
     width: 80%;
     height: 100%;
 }
-p{
-    height: 20%;
-    margin: 0px;
-}
 .valor{
     height: 40%;
     display: flex;
@@ -168,4 +164,71 @@ p{
   }
   label{
     font-size: 20px;
+  }
+
+  @media(max-width: 580px){
+    .BlocoCarrinho{
+        flex-direction: column;
+    }
+    .retangulo{
+        width: 100%;
+        flex-direction: column;
+        height: 800px;
+    }
+    .camisa{
+        width: 310%;
+        height: 120%;
+    }
+    .PN{
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 30px !important;
+        margin-top: 60px;
+    }
+    .txtCarrinho{
+        align-items: center;
+        width: 300px !important;
+    }
+    .PD{
+        text-align: center;
+    }
+    .valor{
+        text-align: center !important;
+        margin-left: 42px;
+    }
+    .MenuCarrinho{
+        width: 45%;
+        
+    }
+    .blocovalor{
+        flex-direction: column;
+        width: 100%;
+    }
+    .txtvalores{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .txtvalores2{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .txtfinal{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .txtfinal2{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .direcionador{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .f{
+        margin-right: 20px;
+    }
+    .box-3{
+        width: 60% !important;
+        margin-left: 10px;
+    }
   }

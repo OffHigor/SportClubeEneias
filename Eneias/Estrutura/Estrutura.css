@@ -15,6 +15,7 @@
 .centraltxt{
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 #T1{
@@ -29,13 +30,15 @@
     font-weight: bold;
     text-align: start;
     margin: auto;
-    margin: 20px 167.96px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .Tn{
     width: 75%;
     font-size: 20px;
     text-align: start;
-    margin: 20px 167.96px;
+    margin: auto;
+    text-align: justify;
 }
 @media (max-width: 580px){
     #T1{
@@ -50,10 +53,15 @@
         margin: auto;
         margin: 50px 53.750px;
     }
-    .St{
-        margin: 20px 53.75px
+    .centraltxt{
+        width: 100% !important;
     }
     .Tn{
-        margin: 20px 53.75px;
+        font-size: 15px !important;
+        text-align: center !important;
+    }
+    .St{
+        font-size: 20px !important;
+        text-align: center !important;
     }
 }

@@ -1,7 +1,14 @@
 h1{
     margin: 40px;
     text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+}
+h2{
     font-size: 40px;
+    margin: 40px;
+    margin-left: 120px;
+    text-align: left;
 }
 p{
     margin: 0px;
@@ -13,9 +20,10 @@ p{
 .ImgLoja{
     padding: 0px;
     height: 850px;
+    text-align: center;
 }
 .ImagemLoja{
-    width: 100%;
+    width: 88%;
     height: 100%;
 }
 .BlocoCamisas{
@@ -32,6 +40,12 @@ p{
     height: 100%;
     margin: 0px 50px 0px 0px;
 }
+.cardsvenda:hover{
+    transform: scale(1.1);
+}
+.cardsvenda2:hover{
+    transform: scale(1.1);
+}
 .cardsvenda2{
     display: flex;
     flex-direction: column;
@@ -41,4 +55,53 @@ p{
 }
 .camisas{
     width: 100%
+}
+.pr{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ec{
+    font-size: 30px;
+}
+
+@media (max-width: 580px){
+    h1{
+        font-size: 40px;
+    }
+    .ImagemLoja{
+        width: 100%;
+        height: 40%;
+
+    }
+    .ImgLoja{
+        height: 80%;
+    }
+    h2{
+        font-size: 30px;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .BlocoCamisas{
+        flex-direction: column;
+        height: 2400px;
+
+    }
+    .camisas{
+        width: 500%;
+    }
+    .pr{
+        width: 400% !important;
+        margin-left: 100px;
+    }
+    .ec{
+        width: 400% !important;
+        margin-left: 130px;
+    }
+    .cardsvenda{
+        width: 20% !important;
+    }
+    #gol{
+        margin-left: 70px !important;
+    }
 }

@@ -28,11 +28,29 @@
     font-size: 25px;
     text-align: center;
 }
+#colo{
+    width: 50%;
+}
+#expo{
+    width: 40%;
+}
 @media(max-width: 580px){
     #TT{
         font-size: 36px;
     }
     .redirecionador{
         width: 85%;
+    }
+    .TPast{
+        font-size: 80%;
+    }
+    .Logos{
+        width: 60%;
+    }
+    #colo{
+        width: 100% !important;
+    }
+    #expo{
+        width: 80% !important;
     }
 }

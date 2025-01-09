@@ -13,15 +13,13 @@
     display: flex;
     flex-direction: column;
     width: 20% !important;
-    height: 100%;
-    margin: 0px 50px 0px 0px;
+    height: 100%; margin-right: 70px;
 }
 .cardsvenda2{
     display: flex;
     flex-direction: column;
     width: 20% !important;
     height: 100%;
-    margin: 0px 20px 0px 0px;
 }
 .camisas{
     width: 80%;
@@ -33,19 +31,22 @@
     margin-top: 30px;
 }
 .ImagemModelo{
-    width: 50%;
-    height: 800px;
+    width: 60%;
+    height:880px;
     display: flex;
     justify-content: center;
 }
 .imagemcamisa{
-    width: 60%;
+    width: 50%;
     height: 100%;
+    margin-left: 270px;
 }
 .ComplementosModelo{
     display: flex;
     flex-direction: column;
     margin-left: 0px;
+    width: 30%;
+    margin-right: 270px;
 }
 input{
     width: 80%;
@@ -83,10 +84,22 @@ label{
 @media(max-width: 580px){
     .blocoModeloCompra{
         flex-direction: column;
-        justify-content: ;
+        width: 100%;
+    }
+    .imagemcamisa{
+        width: 200%;
+        height: 100%;
+        margin-right: 120px;
+    }
+    .Pro{
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 20px !important;
     }
     .ComplementosModelo{
         margin-left: 10px;
+        margin: auto !important;
+        width: 100%;
     }
     .Tams{
         justify-content: center;
@@ -122,9 +135,40 @@ label{
     .ImagemModelo{
         height: 400px;
     }
+    .Pre{
+        text-align: center;
+    }
+    .Tamanho{
+        text-align: center;
+    }
+    label{
+        text-align: center;
+        font-size: 20px;
+    }
+    input{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }.Per{
+        margin: auto;
+    }
+    .BS{
+        margin: auto;
+    }
+    #B1{
+        margin-left: 110px;
+        align-items: center;
+        text-align: center;
+    }
+    #B2{
+        margin-left: 35px;
+        align-items: center;
+        text-align: center;
+        font-size: 40px !important;
+        height: 65px !important;
+    }
 }
-.txtbtn{
-}
+
 .BS{
     background:rgb(255,106,0);
     color:#fff;
@@ -170,7 +214,7 @@ label{
     font-size: 20px;
   }
   #B2{
-    width: 99%;
+    width: 104%;
     font-size: 60px;
     height: 100px;
   }
@@ -188,4 +232,7 @@ label{
 }
 .PO{
     font-size: 30px;
+}
+#Bt{
+    width: 78%;
 }
