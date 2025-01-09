@@ -26,6 +26,9 @@
     justify-content: center;
     margin-top: 50px;
 }
+.Imagem:hover{
+    transform: scale(1.2);
+}
 .mapa{
     border-radius: 32px;
     box-shadow: 2px 10px 30px black;

@@ -12,8 +12,8 @@
 .MenuCarrinho{
     width: 40%;
     display: flex;
-    justify-content: end;
-    height: 30px;
+    justify-content: center;
+    height: 50px;
     margin: 50px 50px;
 }
 .ItemCarrinho{
@@ -45,7 +45,37 @@
     margin-top: 20px;
 }
 .lixeira{
-    width: 6%;
+    cursor: pointer;
+    width: 10%;
+    margin: 0px 20px;
+}
+.input-carrinho{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.qnt-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    margin: 0px 20px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: rgb(255,106,0);
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+.qnt-item:hover{
+    background-color: black;
+    color: rgb(255,106,0);
+    border: 2px solid rgb(255,106,0);
+}
+.inputquantidade{
+    border: 2px solid rgb(255,106,0);
 }
 .retangulo{
     display: flex;
@@ -116,8 +146,10 @@
     margin: 0px;
 }
 .inputquantidade{
-    width: 10%;
+    width: 50%;
     text-align: center;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .BS{
@@ -175,29 +207,36 @@
         flex-direction: column;
         height: 800px;
     }
+    .ItemCarrinho{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
     .camisa{
-        width: 310%;
-        height: 120%;
+        width: 90%;
     }
     .PN{
         width: 100% !important;
         text-align: center !important;
         font-size: 30px !important;
-        margin-top: 60px;
+        margin-top: 10px;
     }
     .txtCarrinho{
         align-items: center;
-        width: 300px !important;
+        width: 100% !important;
+        margin-left: 0px;
     }
     .PD{
+        font-size: 28px;
         text-align: center;
     }
     .valor{
-        text-align: center !important;
-        margin-left: 42px;
+        width: 100%;
+        margin: 0px 100px
     }
     .MenuCarrinho{
-        width: 45%;
+        width: 75%;
         
     }
     .blocovalor{
@@ -206,10 +245,12 @@
     }
     .txtvalores{
         font-size: 20px;
+        font-weight: 600;
         margin-left: 10px;
     }
     .txtvalores2{
         font-size: 20px;
+        font-weight: 600;
         margin-right: 10px;
     }
     .txtfinal{
@@ -218,7 +259,11 @@
     }
     .txtfinal2{
         font-size: 20px;
+        font-weight: 600;
         margin-right: 10px;
+    }
+    .minitxt{
+        font-weight: 600;
     }
     .direcionador{
         width: 100%;
@@ -230,5 +275,11 @@
     .box-3{
         width: 60% !important;
         margin-left: 10px;
+    }
+    .MenuCarrinho{
+        margin: auto;
+    }
+    .blocovalor{
+        margin-top: 30px;
     }
   }

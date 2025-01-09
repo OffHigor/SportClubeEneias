@@ -29,6 +29,13 @@
     width: 100%;
     height: 50px;
 }
+.Imagem:hover{
+    transform: scale(1.4);
+}
+.Icones:hover{
+    transform: scale(1.4) rotate(360deg);
+    transition: 1200ms ease-in-out;
+}
 a{
     display: flex;
 }
@@ -44,7 +51,6 @@ h1{
     }
     #r{
         flex-direction: column;
-        margin: auto;
     }
     #im{
         align-items: center !important;
@@ -52,10 +58,15 @@ h1{
     .textoS{
         font-size: 20px;
     }
-    #re{
-        width: 500px;
-        margin-left: 10%;
-        margin-top: 30px;
-        margin-bottom: 30px;
+    .ImagemSobre{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .IconesLogo{
+        justify-content: center;
+    }
+    .s{
+        margin: 0px 20px;
     }
 }
