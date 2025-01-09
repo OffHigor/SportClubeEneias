@@ -1,0 +1,63 @@
+.texto:hover{
+    color: rgb(255,106,0) !important;
+}
+.texto2:hover{
+    background-color: black;
+    color: rgb(255,106,0) !important;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(255,106,0);
+    border: 2px solid rgb(255,106,0);
+}
+.BotaoSocio:hover{
+    background-color: white;
+    color: rgb(255,106,0);
+    border: 2px solid rgb(255,106,0);
+}
+.BotaoLoja:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+h5:hover{
+    color: rgb(255,106,0);
+}
+.txtrodape:hover{
+    font-weight: 500;
+    color: rgb(255,106,0);
+}
+.LogosRodaPe:hover, .LogosRodaPe2:hover, .LogosRodaPe3:hover{
+    transform: scale(2);
+}
+.mascote, .logoen{
+    transform: translate(0px);
+    animation: move 10s ease-in-out infinite;
+    animation-delay: 500ms;
+}
+.ImgCompeticao:hover{
+    transform: scale(1.1);
+}
+.rival:hover{
+    transform: scale(1.2);
+}
+.Logos:hover{
+    transform: scale(1.5);
+}
+.botao:hover{
+    background-color: black;
+    color: rgb(255,106,0) ;
+}
+@keyframes move{
+    50%{
+        transform: translateY(-2006px);
+    }
+}
+@media(max-width: 580px)
+{
+    @keyframes move{
+        50%{
+            transform: translateY(-3006px);
+        }
+    }
+}
