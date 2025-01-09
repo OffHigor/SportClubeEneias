@@ -48,11 +48,7 @@ h5:hover{
     background-color: black;
     color: rgb(255,106,0) ;
 }
-@keyframes move{
-    50%{
-        transform: translateY(-2006px);
-    }
-}
+
 @media(max-width: 580px)
 {
     @keyframes move{
